@@ -1,6 +1,6 @@
 {
   "name": "inventhora-stripe",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -19,14 +19,6 @@
     "prepare": "tsdx build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
-  },
-  "peerDependencies": {
-    "@material-ui/core": "^4.11.0",
-    "@stripe/react-stripe-js": "^1.1.2",
-    "@stripe/stripe-js": "^1.9.0",
-    "formik": "^2.1.5",
-    "react": ">=16",
-    "styled-components": "^5.2.0"
   },
   "husky": {
     "hooks": {
